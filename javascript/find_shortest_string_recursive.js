@@ -6,10 +6,10 @@ function findShortestStringRecursive(arr) {
 // console.log("arr[0]:", arr[0], ", arr[0].length=", arr[0].length)
 // console.log("arr.slice(1):", arr.slice(1))
   const results = findShortestStringRecursive(arr.slice(1))
-  console.log(results)
+  // console.log(results)
   console.log(arr.slice(1))
 
-  // console.log("results.length:", results.length)
+  console.log("results.length:", results.length)
   return arr[0].length <= results.length ? arr[0] : results 
 }
 
